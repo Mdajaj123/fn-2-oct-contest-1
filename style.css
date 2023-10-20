@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
+  /* overflow: hidden;
+  position: fixed; */
 }
 .all-tools {
   display: flex;
@@ -15,6 +17,7 @@ sub {
   color: grey;
 }
 .tool-btn {
+  background-color: transparent;
   border-radius: 10px;
   padding: 15px 10px;
   border: none;
@@ -26,57 +29,67 @@ sub {
 .btn {
   border-radius: 10px;
   padding: 15px 20px;
-  border:none;
+  border: none;
 }
-.btn:hover{
-    cursor: pointer;
-   background-color:#d3d3d3;
+.btn:hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
 }
-#book-library{
+#book-library {
   border-radius: 10px;
   padding: 12px 15px;
-  border:none;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-#book-library:hover{
-     background-color:#d3d3d3;
+#book-library:hover {
+  background-color: #d3d3d3;
 }
-.excalidraw{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top:50px;
+.excalidraw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin-top: 50px;
 }
-h1{
-    font-family: 'Shadows Into Light', cursive;
-    font-size:40px;
-    font-weight: 900;
-    color:#190064;
+#btn-img {
+  width: 20px;
+  background-color: #5b57d1;
 }
-#all-browser{
-    font-family: 'Shadows Into Light', cursive;
-    font-size:20px;
-    color:#CCCCCC;
+.tbtn{
+  background-color: transparent;
 }
-.all-files{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#image {
+  width: 80px;
 }
-.files{
-     display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  font-weight: 900;
+  color: #190064;
 }
-.all-files div p{
-    padding: 15px 20px;
+#all-browser {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #cccccc;
 }
-.all-files div p:hover{
-     cursor:pointer;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     background-color:#d3d3d3; 
-
+.all-files {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.files {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.all-files div p {
+  padding: 15px 20px;
+}
+.all-files div p:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #d3d3d3;
 }
