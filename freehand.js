@@ -6,6 +6,7 @@ const colorPicker = document.getElementById("color-picker");
 
 colorPicker.addEventListener("change", () => {
     drawingColor = colorPicker.value;
+    c.strokeStyle = drawingColor;
     console.log(drawingColor);
 });
 
