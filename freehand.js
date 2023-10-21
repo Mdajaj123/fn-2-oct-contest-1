@@ -14,8 +14,11 @@ function onPencilClick() {
     isPencilActive = !isPencilActive; // enabling the drawing 
     // isPencilActive = !false = true
     if (isPencilActive) {
+        // c.strokeStyle = drawingColor;
         canvas.style.cursor = "crosshair";
+        
         canvas.addEventListener("mousedown", onMouseDown);
+    
     }
     else {
         canvas.style.cursor = "auto";

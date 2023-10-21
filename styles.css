@@ -42,6 +42,9 @@
     cursor: pointer;
     font-size: 16px !important;
 }
+sub{
+    color:grey;
+}
 .btn:hover{
     background-color: #ECECF3;
     border-radius: 4px;
